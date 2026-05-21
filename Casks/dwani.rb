@@ -1,6 +1,6 @@
 cask "dwani" do
-  version "0.1.1"
-  sha256 "1379626544fc42fa85ea863e9ffb0576be01a25d65c432ad676f1d3c703b35ec"
+  version "0.1.2"
+  sha256 "bfb6e62c57e8420da4659a73850bb922f2be09e967c0a2c4cbbda4413ac57be5"
 
   url "https://dl.dwani.app/Dwani-#{version}.dmg"
   name "Dwani"
