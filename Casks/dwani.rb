@@ -7,6 +7,10 @@ cask "dwani" do
   desc "Push-to-talk voice dictation utility for macOS"
   homepage "https://dwani.app/"
 
+  livecheck do
+    skip "No livecheck source yet — bump manually on each release"
+  end
+
   depends_on macos: ">= :sonoma"
 
   app "Dwani.app"
